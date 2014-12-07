@@ -1,0 +1,72 @@
+body {
+	background: #BABABA;
+	color: #000000;
+	margin: 0;
+	font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 90%;
+  text-align: center;
+}
+
+#main {
+  background: url(images/logo_login.jpg) no-repeat;
+	width: 535px;
+  min-height: 429px;  
+}
+
+#main-inner {
+  padding: 380px 0 0 0;
+}
+
+a:link {
+  color: #0066BD; 
+  text-decoration: underline;
+}
+
+a:visited {
+	color: #0066BD; 
+  text-decoration: underline;
+}
+
+a:hover {
+	color: #004580; 
+  text-decoration: underline;
+}
+
+table {
+  width: 300px;
+  border-top: 1px solid #363636;
+  border-right: 1px solid #363636;
+  border-left: 1px solid #363636;
+  border-bottom: 7px solid #363636;
+  border-collapse: collapse;
+}
+
+th {
+  background: url(images/table_header.png);
+  height: 30px;
+  font-size: 130%;
+  text-align: left;
+  color: #E9E9E9;
+  padding: 0 7px 0 7px;
+}
+
+td {
+  text-align: center;
+  background: #E7E7E7 url(images/table_bcg.png) repeat-x;
+  height: 110px;
+  vertical-align: top;
+}
+
+.error { 
+  height: 12px;
+  padding: 12px 20px 12px 20px;
+}
+
+.error img {
+  float: left;
+  padding: 0;
+}
+
+.login {
+  height: 70px;
+}

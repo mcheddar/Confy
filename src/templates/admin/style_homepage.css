@@ -1,0 +1,75 @@
+body {
+	background: #0066BD;
+	color: #FFFFFF;
+	margin: 0;
+	font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+#main {
+  background: url(images/logo_index.jpg) no-repeat;
+	width: 535px;
+  min-height: 429px;  
+}
+
+#main-inner {
+  padding: 380px 0 0 0;
+}
+
+.admin a:link {
+  font-size: 90%;
+  color: #FFFFFF; 
+  text-decoration: underline;
+}
+
+.admin a:visited {
+	color: #FFFFFF; 
+  text-decoration: underline;
+}
+
+.admin a:hover {
+	color: #74bfff; 
+  text-decoration: underline;
+}
+
+
+.button {
+  font-size: 110%;
+  padding: 7px 0 0 0;
+  border-radius: 4px; 
+  -moz-border-radius: 4px; 
+  -webkit-border-radius: 4px;
+  text-shadow: 1px 1px 0px #545454; 
+}
+
+a.button:link {
+  color: #FFFFFF;
+  width: 300px;
+  height: 28px;
+  display: block;
+  background: #0086f9;
+  text-decoration: none;
+}
+
+a.button:visited {
+	color: #FFFFFF;
+  background: #0086f9; 
+  text-decoration: none;
+}
+
+a.button:hover {
+	color: #FFFFFF;
+  background: #1091ff; 
+  text-decoration: none;
+}
+
+.admin {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+img.icon {
+  padding: 1px 3px 0 0;
+}

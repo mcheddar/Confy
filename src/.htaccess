@@ -1,0 +1,17 @@
+RewriteEngine on
+RewriteRule ^(admin|conferences|includes|templates) - [L]
+RewriteRule ^([a-zA-Z0-9-_]+)$ /$1/ [R]
+RewriteRule ^([a-zA-Z0-9-_]+)/$ page.php?conf=$1&page=home
+RewriteRule ^([a-zA-Z0-9-_]+)/index\.php$ page.php?conf=$1&page=home
+RewriteRule ^([a-zA-Z0-9-_]+)/index\.html$ page.php?conf=$1&page=home
+RewriteRule ^([a-zA-Z0-9-_]+)/home\.html$ page.php?conf=$1&page=home
+RewriteRule ^([a-zA-Z0-9-_]+)/registration-form\.html$ registration.php?conf=$1
+RewriteRule ^([a-zA-Z0-9-_]+)/participants\.html$ participants.php?conf=$1
+RewriteRule ^([a-zA-Z0-9-_]+)/submitted-papers\.html$ submitted_papers.php?conf=$1
+RewriteRule ^([a-zA-Z0-9-_]+)/login\.html$ login.php?conf=$1
+RewriteRule ^([a-zA-Z0-9-_]+)/registration-edit\.html$ registration.php?conf=$1&action=edit
+RewriteRule ^([a-zA-Z0-9-_]+)/paper-submission\.html$ paper_submission.php?conf=$1
+RewriteRule ^([a-zA-Z0-9-_]+)/change-password\.html$ change_password.php?conf=$1
+RewriteRule ^([a-zA-Z0-9-_]+)/forgotten-password\.html$ forgotten_password.php?conf=$1
+RewriteRule ^([a-zA-Z0-9-_]+)/log-out\.html$ logout.php?conf=$1
+RewriteRule ^([a-zA-Z0-9-_]+)/([a-zA-Z0-9-_]+)\.html$ page.php?conf=$1&page=$2
